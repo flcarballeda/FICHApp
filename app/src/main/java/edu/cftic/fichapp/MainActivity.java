@@ -9,5 +9,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // TODO Abrir la base de datos
+        // TODO Comprobar si hay un empleado que sea el Responsable
+        // TODO Comprobar si hay dada de alta al menos una Empresa
+        // TODO Saltar al Login.
     }
 }

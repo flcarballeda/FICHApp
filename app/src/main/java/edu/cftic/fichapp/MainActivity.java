@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         if( null == roles || roles.contains(GESTOR)) {
             // No hay empleados registrados o ninguno de los
             //    empleados registrados es un gestor.
-            // TODO Llamar a la Actividad de dar de alta Empleados,
+            // Llamar a la Actividad de dar de alta Empleados,
             //        forzando que sea un gestor o responsable.
 //            intent = new Intent(this, RegistroEmpleadoActivity.class);
 
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             //    de un gestor se pasa un Boolean de valor True
             //    en el Intent. El nombre del Extra está definido
             //    en la Actividad que recibe el Dato.
-//            intent.putExtra( RegistroEmpleadoActivity., true);
+//            intent.putExtra( RegistroEmpleadoActivity., true); // TODO Falta el nombre del parámetro
 
         } else {
             // Ya hay empleados y hay, al menos, un GESTOR.
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 //                intent = new Intent(this, RegistroEmpresaActivity.class);
             } else {
                 // TODO Saltar al Login.
-//                intent = new Intent( this, .class);
+//                intent = new Intent( this, LoginActivity.class);
             }
         }
         if( null != intent) {
